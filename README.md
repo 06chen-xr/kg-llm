@@ -12,6 +12,33 @@ Entity Embeddings: Precomputed vector representations of knowledge database enti
 Data Processing: Supports multiple data formats (data.txt, test_data.txt, graph_database_export.xlsx, news_subset.xlsx).
 Knowledge Graph Export: Converts extracted knowledge into structured formats (kg_toexcel.py).
 
+## Related Publications
+
+This repository is associated with the following peer-reviewed research publications on LLM- and RAG-based knowledge graph construction:
+
+### 1. A Self-Improving, RAG-Enhanced Framework for Automatic Knowledge Graph Construction from Climate Event News
+
+**Authors:** Xiaorui Chen, Haiyan Hao  
+**Published in:** Proceedings of the 22nd International ISCRAM Conference (ISCRAM 2025)  
+**DOI:** [10.59297/wjmsp389](https://doi.org/10.59297/wjmsp389)  
+**Paper:** [Official Publication](https://ojs.iscram.org/index.php/Proceedings/article/view/154)
+
+This study proposes a RAG-enhanced, self-improving framework for extracting entities and relationships from climate event news. It explores iterative refinement and prompt engineering to improve the accuracy and reliability of automatically constructed knowledge graphs.
+
+### 2. Uncovering Compound Urban Crises with Large Language Model-Assisted Knowledge Graph Construction
+
+**Authors:** Haiyan Hao, Xiaorui Chen, Yudi Chen, Nan Li  
+**Published in:** International Journal of Disaster Risk Reduction, Volume 127, Article 105669 (2025)  
+**DOI:** [10.1016/j.ijdrr.2025.105669](https://doi.org/10.1016/j.ijdrr.2025.105669)  
+**Paper:** [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2212420925004935)
+
+This study extends LLM-assisted knowledge graph construction to the analysis of compound urban crises, combining RAG, prompt engineering, and iterative self-refinement to identify relationships among interconnected crisis events.
+
+### Research Context
+
+KG-LLM provides research-oriented implementations and experimental utilities related to these studies, including LLM-based entity extraction, retrieval augmentation, prompt comparison, and structured knowledge graph generation.
+
+
 ## Key Features
 
 - **Module-based Architecture**:  
